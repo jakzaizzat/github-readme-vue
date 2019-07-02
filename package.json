@@ -11,8 +11,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
-    "nuxt": "^2.0.0"
+    "@nuxtjs/axios": "^5.5.4",
+    "nuxt": "^2.0.0",
+    "vue-showdown": "^2.4.1"
   },
   "devDependencies": {
     "tailwindcss": "^1.0.0",
