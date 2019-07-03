@@ -1,6 +1,12 @@
 # github-taiger
 
-> My delightful Nuxt.js project
+> Create a single-page application that displays a user’s GitHub projects and lets you view the project’s README.
+
+## Technology
+* VueJS
+* Nuxt
+* TailwindCSS
+* PostCSS
 
 ## Build Setup
 
@@ -8,15 +14,10 @@
 # install dependencies
 $ npm run install
 
-# serve with hot reload at localhost:3000
+# Development
 $ npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
+# generate static project for Production
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
