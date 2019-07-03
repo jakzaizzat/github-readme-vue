@@ -42,17 +42,6 @@ export default {
         name: "username",
         params: { username: this.username }
       });
-      // try {
-      //   let res = await this.$axios.$get("/users/" + this.username);
-      //   this.repos = res;
-      //   this.$emit("input", res);
-      //   this.$router.push({
-      //     name: "username",
-      //     params: { username: this.username }
-      //   });
-      // } catch (e) {
-      //   console.log(e);
-      // }
     }
   }
 };

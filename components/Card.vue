@@ -1,10 +1,10 @@
 <template>
   <nuxt-link
     :to="{ name: 'username-project', params: { username: username, project: repo.name  }}"
-    class="rounded bg-gray-200 block overflow-hidden shadow cursor-pointer h-full hover:bg-red-100"
+    class="card"
   >
-    <div class="px-6 py-4">
-      <div class="font-medium text-lg text-gray-900">{{repo.name}}</div>
+    <div>
+      <h3>{{repo.name}}</h3>
     </div>
   </nuxt-link>
 </template>
@@ -38,3 +38,18 @@ export default {
   }
 };
 </script>
+
+<style lang="postcss" scoped>
+.card {
+  @apply rounded bg-gray-200 block overflow-hidden shadow cursor-pointer h-full;
+}
+.card:hover {
+  @apply bg-red-100;
+}
+.card div {
+  @apply px-6 py-4;
+}
+.card h3 {
+  @apply font-medium text-lg text-gray-900;
+}
+</style>

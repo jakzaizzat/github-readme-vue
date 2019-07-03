@@ -14,7 +14,7 @@ export default {
       return { content: atob(res.content) };
     } catch (e) {
       console.log(e);
-      return e;
+      return { content: "# No Readme File" };
     }
   },
   data() {

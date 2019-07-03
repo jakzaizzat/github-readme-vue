@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-lg mb-4 font-semibold">List repo from {{username}}</h1>
+    <h1>List repo from {{username}}</h1>
     <div v-if="repos.length > 0" class="flex flex-wrap -mx-2">
       <div v-for="repo in repos" :key="repo.id" class="w-full md:w-1/3 px-2 mb-4">
         <Card :repo="repo" />
@@ -35,3 +35,9 @@ export default {
   }
 };
 </script>
+
+<style lang="postcss" scoped>
+h1 {
+  @apply text-lg mb-4 font-semibold;
+}
+</style>

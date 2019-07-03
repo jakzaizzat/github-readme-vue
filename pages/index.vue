@@ -1,17 +1,13 @@
 <template>
   <div>
-    <SearchBar v-model="result" />
+    <h1>SPA for github readme</h1>
+    <SearchBar />
   </div>
 </template>
 
 <script>
 import SearchBar from "@/components/SearchBar";
 export default {
-  components: { SearchBar },
-  data() {
-    return {
-      result: ""
-    };
-  }
+  components: { SearchBar }
 };
 </script>
