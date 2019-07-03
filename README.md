@@ -21,3 +21,5 @@ $ npm run dev
 $ npm run generate
 ```
 
+[Github URL](https://github.com/jakzaizzat/github-readme-vue)
+[Production](https://git-taiger.netlify.com/)
